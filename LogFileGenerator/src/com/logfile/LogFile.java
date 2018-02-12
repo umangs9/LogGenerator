@@ -23,6 +23,8 @@ public class LogFile {
 			lfile.divide();
 		} catch (ArithmeticException ex) {
 			logger.error("Error occured " + ex);
+			logger.warn("Please make your program error free");
+
 		}
 	}
 
